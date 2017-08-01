@@ -12,14 +12,19 @@
 	background-color: green;
 	color: white;
 	width: 100%;
+	height: 20vh;
+	font-size: 1.5vh;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-sm-1, .col-sm-2, .col-sm-3{
+	float: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
 }
 
 @media(min-width: 481px){
-	.col-md-1, .col-md-2, .col-md-3{
-		float: left;
-		padding: 10px 50px 0px 50px;
-		box-sizing: border-box;
-	}
 
 	.col-md-1{
 		width: 33%
@@ -37,20 +42,6 @@
 }
 
 @media(max-width: 480px){
-	
-	.header{
-		text-align: center;
-		background-color: green;
-		color: white;
-		width: 100%;
-		height: 20vh;
-		font-size: 2vh;
-	}
-	.col-sm-1, .col-sm-2, .col-sm-3{
-		float: left;
-		padding: 10px 50px 0px 50px;
-		box-sizing: border-box;
-	}
 
 	.col-sm-1{
 		width: 33%
